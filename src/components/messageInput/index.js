@@ -7,9 +7,9 @@ import { TextField } from '../textField';
  * @param {{id: string, disabled?: boolean, value: string}} props
  * @returns {string}
  */
-export const MessageInput = (props) => {
+export const MessageInput = ({ id, ...props }) => {
   const input = TextField({
-    id: 'message-text',
+    id,
     value: props.value,
     placeholder: 'message',
   });

@@ -1,3 +1,17 @@
+export const actionsData = [
+  { id: 'changeData', name: 'Change profile data', variant: 'outline' },
+  { id: 'changepas', name: 'Change password', variant: 'outline' },
+  { id: 'logout', name: 'Loguot', color: 'var(--color-error)', variant: 'outline' },
+];
+
+export const userData = {
+  first_name: 'James',
+  second_name: 'Smith',
+  display_name: 'James',
+  login: 'James',
+  email: 'james@dev.io',
+  phone: '9999-999-99-99',
+};
 export const chats = [
   {
     id: '1',

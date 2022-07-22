@@ -23,7 +23,9 @@ export const app = () => {
   const root = document.getElementById('root');
   const path = history.location.pathname;
 
-  const html = (routes[path] ?? SingInPage)();
+  const search = history.location.search;
+
+  const html = (routes[path] ?? SingInPage)({ search });
   root.innerHTML = html;
 
   history.listen(({ location }) => {

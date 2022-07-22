@@ -33,4 +33,15 @@
   &:active {
     background-color: var(--color-accent_1);
   }
+
+  &--variant_outline {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+  &--variant_outline:hover {
+    background-color: transparent !important;
+  }
 }

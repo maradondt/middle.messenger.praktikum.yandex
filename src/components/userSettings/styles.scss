@@ -1,0 +1,80 @@
+.user-settings {
+  padding: 2rem;
+  width: 600px;
+  &__title {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__actions {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    & > :nth-child(n) {
+      margin-right: 1rem;
+    }
+  }
+  &__data {
+    width: 80%;
+  }
+  &__data-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--color-gray_2);
+    span:last-child {
+      color: var(--color-accent);
+    }
+  }
+}
+
+.image-loader {
+  &__input {
+  }
+  &__label {
+    display: flex;
+    cursor: pointer;
+    &::after {
+      transition: background-color 0.2s ease;
+    }
+  }
+  &__img {
+    object-fit: cover;
+  }
+
+  &__wrapper {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+  }
+  &__label-text {
+    display: block;
+    position: absolute;
+    width: 100px;
+    margin-top: -2rem;
+    text-align: center;
+    visibility: hidden;
+    color: var(--color-white);
+    pointer-events: none;
+  }
+  &__label:hover {
+    ::after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.55);
+    }
+  }
+  &__label:hover + &__label-text {
+    visibility: visible;
+  }
+}

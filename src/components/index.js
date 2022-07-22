@@ -6,3 +6,5 @@ export { Message } from './message';
 export { UserImage } from './userImage';
 export { TextField } from './textField';
 export { MessageInput } from './messageInput';
+export { Modal } from './modal';
+export { UserSetting } from './userSettings';
