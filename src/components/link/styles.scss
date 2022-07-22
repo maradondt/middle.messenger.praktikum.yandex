@@ -1,0 +1,15 @@
+.link-component {
+  position: relative;
+  &:hover {
+    text-decoration: underline;
+    color: var(--color-accent_1);
+  }
+
+  &--arrow::after {
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    content: '>';
+    display: block;
+  }
+}

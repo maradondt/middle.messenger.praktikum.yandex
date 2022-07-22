@@ -1,0 +1,37 @@
+body {
+  color: var(--color-black_2);
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-gray_1);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  color: var(--color-black_2);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-black_2);
+  font-weight: 500;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

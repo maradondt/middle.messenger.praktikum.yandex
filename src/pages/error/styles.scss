@@ -1,0 +1,28 @@
+.error-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__text {
+    margin: 0;
+  }
+
+  &__title {
+    margin-bottom: 0.5rem;
+  }
+
+  &__code {
+    position: absolute;
+    left: -10%;
+    top: 20%;
+    z-index: -1;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 400px;
+  }
+  &__extra {
+    margin-top: 0.5rem;
+  }
+}
