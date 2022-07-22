@@ -1,0 +1,12 @@
+<div class='message {{#if isSelf}}message--self{{/if}}'>
+  {{#if isSelf}}{{else}}
+    <span class='message__user-name'>{{userName}}</span>
+  {{/if}}
+  <p class='message__text'>{{text}}</p>
+  {{#if imgSrc}} 
+  <div class="message__img-wrapper">
+    <img width="200" height="200" src="{{imgSrc}}" alt="" class="message__img">
+  </div>
+  {{/if}}
+  <span class='message__date'>{{date}}</span>
+</div>
