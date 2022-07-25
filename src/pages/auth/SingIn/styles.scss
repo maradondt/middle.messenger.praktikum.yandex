@@ -1,0 +1,30 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  &__inner {
+    padding: 2rem;
+    width: 400px;
+    box-shadow: var(--shadow-shadow1);
+    background-color: var(--color-white);
+  }
+  &__title {
+    text-align: center;
+    margin: 0;
+  }
+  form > div {
+    margin-bottom: 1rem;
+  }
+  .actions {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      margin-bottom: 1rem;
+    }
+  }
+}

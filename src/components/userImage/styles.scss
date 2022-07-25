@@ -1,0 +1,17 @@
+.img {
+  object-fit: cover;
+
+  &__img {
+    width: 47px;
+    height: 47px;
+    margin-right: 0.25rem;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &--img_empty {
+    flex: 1 1 auto;
+    background-color: var(--color-gray2);
+  }
+}

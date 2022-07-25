@@ -1,0 +1,16 @@
+<button 
+  {{#if color}}
+  style="
+    color: {{color}};
+    border-color: {{color}};
+  "
+  {{/if}}
+
+  id='{{id}}'
+  type="button"
+{{#if disabled}} 
+  disabled
+{{/if}}
+ class='button-component {{#if fluid}}button-component--fluid{{/if}}
+ {{#if variant}} button-component--variant_{{variant}}{{/if}}
+ '>{{name}}</button>
