@@ -8,14 +8,14 @@
   &__inner {
     padding: 2rem;
     width: 400px;
-    box-shadow: var(--shadow-shadow_1);
+    box-shadow: var(--shadow-shadow1);
     background-color: var(--color-white);
   }
   &__title {
     text-align: center;
     margin: 0;
   }
-  form > * {
+  form > div {
     margin-bottom: 1rem;
   }
   .actions {

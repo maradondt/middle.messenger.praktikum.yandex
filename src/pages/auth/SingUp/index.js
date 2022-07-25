@@ -14,8 +14,3 @@ export const SingUpPage = (data) => {
     link: Link({ href: '/singin', text: 'Already registred? Sing in' }),
   });
 };
-
-// email
-// phone
-// name
-// surname

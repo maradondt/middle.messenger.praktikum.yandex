@@ -5,12 +5,12 @@ import { colors, shadows } from './shared';
 import { Link } from './components';
 
 const routes = {
-  '/singin': SingInPage,
-  '/singup': SingUpPage,
+  '/singin/': SingInPage,
+  '/singup/': SingUpPage,
   '/': MainPage,
-  '/404': () =>
+  '/404/': () =>
     ErrorPage({ code: 404, description: 'oops... Page not found', extra: Link({ href: '/', text: 'Go to chats' }) }),
-  '/500': () =>
+  '/500/': () =>
     ErrorPage({
       code: 500,
       description: 'oops... something went wrong.',

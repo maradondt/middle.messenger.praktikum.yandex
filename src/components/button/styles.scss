@@ -22,16 +22,16 @@
   }
 
   &:disabled {
-    background-color: var(--color-gray_2);
+    background-color: var(--color-gray2);
     &:hover,
     &:active {
-      background-color: var(--color-gray_2);
+      background-color: var(--color-gray2);
     }
   }
 
   &:hover,
   &:active {
-    background-color: var(--color-accent_1);
+    background-color: var(--color-accent1);
   }
 
   &--variant_outline {

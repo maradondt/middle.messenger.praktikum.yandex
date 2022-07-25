@@ -5,7 +5,7 @@
 
   &__sidebar {
     width: 320px;
-    box-shadow: var(--shadow-shadow_1);
+    box-shadow: var(--shadow-shadow1);
   }
   &__content {
     flex: 1 0 auto;
@@ -17,7 +17,7 @@
   height: 100%;
   overflow: auto;
   &__header {
-    background-color: var(--color-gray_1);
+    background-color: var(--color-gray1);
     position: sticky;
     top: 0;
     display: flex;
@@ -51,8 +51,8 @@
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--color-gray_1);
-    box-shadow: var(--shadow-shadow_1);
+    background-color: var(--color-gray1);
+    box-shadow: var(--shadow-shadow1);
     & > :first-child {
       margin-right: 1rem;
     }
@@ -71,7 +71,6 @@
     padding: 1rem;
     position: sticky;
     bottom: 0;
-    background-color: var(--color-gray_1);
+    background-color: var(--color-gray1);
   }
 }
-

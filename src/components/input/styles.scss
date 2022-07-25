@@ -10,10 +10,10 @@
     width: 100%;
     border: none;
     border-bottom: 1px solid var(--color-accent);
-    background-color: var(--color-gray_1);
+    background-color: var(--color-gray1);
     transition: position 0.2s;
     font-size: 12px;
-    color: var(--color-accent_1);
+    color: var(--color-accent1);
 
     &::placeholder {
       font-size: 0;
@@ -37,10 +37,10 @@
       font-size: 14px;
     }
     &:disabled {
-      color: var(--color-gray_2);
-      border-color: var(--color-gray_2);
+      color: var(--color-gray2);
+      border-color: var(--color-gray2);
       &:placeholder-shown + label {
-        color: var(--color-gray_2);
+        color: var(--color-gray2);
       }
     }
   }
@@ -51,6 +51,6 @@
     transition-property: left, top, font-size;
     transition-duration: 0.2s;
     font-size: 12px;
-    color: var(--color-accent_1);
+    color: var(--color-accent1);
   }
 }
